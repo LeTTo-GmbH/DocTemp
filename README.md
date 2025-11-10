@@ -1,6 +1,8 @@
 # LeTTo DocTemp
 
-URL: [https://github.com/LeTTo-GmbH/DocTemp.git](https://github.com/LeTTo-GmbH/DocTemp.git)
+* GIT-URL: [https://github.com/LeTTo-GmbH/DocTemp.git](https://github.com/LeTTo-GmbH/DocTemp.git)
+* URL: https://letto-gmbh.github.io/DocTemp/
+
 
 
 Offenes Repository mit [Wiki](https://doc.letto.at/), [Discussions](https://github.com/LeTTo-GmbH/LeTTo/discussions) und wichtigen Infos zur Lernplattform [LeTTo](https://www.letto.at)
@@ -27,3 +29,15 @@ Offenes Repository mit [Wiki](https://doc.letto.at/), [Discussions](https://gith
   * IntelliJ: Einstellungen / Preferences (Strg+Alt+S) → Editor → File Types.
       * Wähle in der Liste Files opened in associated applications (oder „Files opened in associated application“).
       * Füge ein Pattern *.png (oder *.PNG) hinzu.
+
+## Github Pages aktivieren
+* gehe auf das Repo am Github-Account
+* Setze das Repo auf Public-Zugriff
+* Settings - Pages
+  * Build and deployment
+  * Branch
+    * wähle einen Branch und ein Verzeichnis für die Page (zB. /doc)
+  * nach kurzer Zeit sollte die Seite verfügbar sein
+* Anpassen an den richtigen Pfad
+  * _config.yml
+  * _layouts/default.html
