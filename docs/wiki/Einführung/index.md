@@ -29,8 +29,6 @@ Zum Erstellen von Beispielen wählen Sie in der Navigation bitte den Link mit [B
 
 ### Online-Test mit Schülern durchführen
 
-**TEST TEXT. REMOVE LATER**
-
 ### Ergebnisse
 
 ### Katalogführung
