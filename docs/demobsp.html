@@ -7,9 +7,6 @@ layout: default
     iframe { width:100%; height:80vh; border: 1px solid #ddd; }
     .error { color: #b00; }
 </style>
-
-<h1>Demo-Beispiel</h1>
-
 <p id="info">Lade...</p>
 <div id="wrapper">
     <iframe id="targetFrame" sandbox="allow-scripts allow-same-origin"></iframe>
@@ -78,7 +75,7 @@ layout: default
         }
 
         // 4) iframe setzen
-        info.textContent = 'Embedded: ' + target;
+        info.innerHTML = 'Embedded: <a href="'+target+'">'+target+'</a>';
         iframe.src = target;
         // Optional: onload/error behandeln
         iframe.addEventListener('error', () => {
